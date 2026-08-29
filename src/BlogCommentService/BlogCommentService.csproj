@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <ItemGroup>
+        <ProjectReference Include="..\Application\BlogCommentService.Application\BlogCommentService.Application.csproj"/>
+        <ProjectReference Include="..\Infrastructure\BlogCommentService.Infrastructure.Npgsql\BlogCommentService.Infrastructure.Npgsql.csproj"/>
+        <ProjectReference Include="..\Infrastructure\BlogCommentService.Infrastructure.Grpc\BlogCommentService.Infrastructure.Grpc.csproj"/>
+        <ProjectReference Include="..\Presentation\BlogCommentService.Presentation.Grpc\BlogCommentService.Presentation.Grpc.csproj"/>
+    </ItemGroup>
+
+</Project>

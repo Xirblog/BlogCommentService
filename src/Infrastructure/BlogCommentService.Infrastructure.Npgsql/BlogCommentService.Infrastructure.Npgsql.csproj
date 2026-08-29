@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions"/>
+        <PackageReference Include="Dapper"/>
+        <PackageReference Include="Npgsql"/>
+        <PackageReference Include="Npgsql.DependencyInjection"/>
+        <PackageReference Include="FluentMigrator"/>
+        <PackageReference Include="FluentMigrator.Runner"/>
+        <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\Application\BlogCommentService.Application.Abstractions\BlogCommentService.Application.Abstractions.csproj" />
+        <ProjectReference Include="..\..\Application\BlogCommentService.Application.Models\BlogCommentService.Application.Models.csproj" />
+    </ItemGroup>
+    
+</Project>

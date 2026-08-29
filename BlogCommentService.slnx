@@ -1,0 +1,27 @@
+<Solution>
+    <Folder Name="/common/">
+        <File Path="Directory.Build.props" />
+        <File Path="Directory.Packages.props" />
+    </Folder>
+
+    <Folder Name="/src/">
+        <Project Path="src/BlogCommentService/BlogCommentService.csproj" />
+    </Folder>
+
+    <Folder Name="/src/Application/">
+        <Project Path="src/Application/BlogCommentService.Application.Abstractions/BlogCommentService.Application.Abstractions.csproj" />
+        <Project Path="src/Application/BlogCommentService.Application.Contracts/BlogCommentService.Application.Contracts.csproj" />
+        <Project Path="src/Application/BlogCommentService.Application.Models/BlogCommentService.Application.Models.csproj" />
+        <Project Path="src/Application/BlogCommentService.Application/BlogCommentService.Application.csproj" />
+    </Folder>
+
+    <Folder Name="/src/Infrastructure/">
+        <Project Path="src/Infrastructure/BlogCommentService.Infrastructure.Grpc/BlogCommentService.Infrastructure.Grpc.csproj" />
+        <Project Path="src/Infrastructure/BlogCommentService.Infrastructure.Npgsql/BlogCommentService.Infrastructure.Npgsql.csproj" />
+    </Folder>
+
+    <Folder Name="/src/Presentation/">
+        <Project Path="src/Presentation/BlogCommentService.Presentation.Grpc/BlogCommentService.Presentation.Grpc.csproj" />
+    </Folder>
+
+</Solution>
